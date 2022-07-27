@@ -17,9 +17,17 @@ ul {
   gap: 16px;
 }
 
-a {
+a,
+p {
   text-decoration: none;
   color: #e5e7eb;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  padding: 8px 20px;
+  border-radius: 5px;
 }
 
 .header,
@@ -40,6 +48,35 @@ a {
 
 .header-links {
   margin-right: 16px;
+}
+
+.hero {
+  background-color: #1f2937;
+  padding: 16px 80px;
+  flex: 1 1 auto;
+  display: flex;
+}
+
+.hero-main,
+.hero-secondary {
+  padding: 16px;
+}
+
+.hero-main h3 {
+  font-size: 48px;
+  font-weight: extra-bold;
+  color: #f9faf8;
+}
+
+.hero-main button {
+  background-color: #3882f6;
+  color: #e5e7eb;
+}
+
+.hero-secondary img {
+  width: 500px;
+  height: 360px;
+  object-fit: scale-down;
 }
 
 .container {
