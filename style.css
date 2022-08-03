@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,300&display=swap");
 
 body {
   height: 100vh;
@@ -123,6 +123,26 @@ button {
   font-size: 12px;
   text-align: center;
   color: #1f2937;
+}
+
+.quote-section {
+  background-color: #e5e7eb;
+  padding: 8px 80px;
+  /* display: flex; */
+}
+
+.quote-section p {
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  color: #1f2937;
+  padding: 0 210px;
+}
+
+.signature {
+  text-align: end;
+  padding-right: 250px;
+  margin-top: -40px;
 }
 
 .footer {
