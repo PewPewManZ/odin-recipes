@@ -145,6 +145,40 @@ button {
   margin-top: -40px;
 }
 
+.action {
+  background-color: #3882f6;
+  border-radius: 5px;
+  max-width: 1000px;
+  margin: 50px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.action-content {
+  padding: 40px 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.action-content h4 {
+  margin: 0;
+  color: #e5e7eb;
+}
+
+.action-content h5 {
+  margin: 5px 0;
+  color: #e5e7eb;
+  font-weight: lighter;
+}
+
+.action button {
+  background-color: transparent;
+  border: 1px solid #e5e7eb;
+  color: #e5e7eb;
+  padding: 8px 24px;
+}
+
 .footer {
   font-size: 12px;
   text-align: center;
